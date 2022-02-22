@@ -3,7 +3,47 @@ guid: 481b54041868b8642bc075fde308b7a9
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedMat
+    second: {fileID: 2100000, guid: 5c4b03566f537a94aa3adf8482d83939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bedside_TableMat
+    second: {fileID: 2100000, guid: eb41a870fed36de498d24e9490b1a0ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ComputerMat
+    second: {fileID: 2100000, guid: 0295f23eb97b2f14abe6dfea56ce1c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DeskMat
+    second: {fileID: 2100000, guid: 77f0ee06a8f70834f8c20687010beda7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Swivel_ChairMat
+    second: {fileID: 2100000, guid: 7ae328cb9b467c44a82b3f887f08c4b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV___TV_StandMat
+    second: {fileID: 2100000, guid: d7c8b89b798a74f4e9cfd5d968224459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower_FanMat
+    second: {fileID: 2100000, guid: 947726f87eeb09d458df46d29650c44a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_FloorModel_CornerRoomMat
+    second: {fileID: 2100000, guid: 99ee75e8876a6e14f899ff33fae7f14f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
