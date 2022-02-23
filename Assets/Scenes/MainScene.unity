@@ -306,7 +306,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8595435660767379854, guid: 6cb7e157b1cde1144b651973d56e1fb1, type: 3}
   m_PrefabInstance: {fileID: 8595435660530760706}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &394467191
+--- !u!114 &394467190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -948,8 +948,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8595435660767379852, guid: 6cb7e157b1cde1144b651973d56e1fb1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595435660767379852, guid: 6cb7e157b1cde1144b651973d56e1fb1, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595435660767379853, guid: 6cb7e157b1cde1144b651973d56e1fb1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8596475836367585214, guid: 6cb7e157b1cde1144b651973d56e1fb1, type: 3}
       propertyPath: m_Name
