@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_room1_bedsidetable
   m_Shader: {fileID: 4800000, guid: 80aa867ac363ac043847b06ad71604cd, type: 3}
-  m_ShaderKeywords: _EMISSION _NORMALMAP
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+    _SPECULAR_SETUP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -81,14 +82,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_8A2B8817: 1
-    - _AlphaClip: 0
-    - _Blend: 0
+    - _AlphaClip: 1
+    - _Blend: 2
     - _BumpScale: 1
     - _ClearCoat: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _Cutoff: 0.549
+    - _Cutoff: 0.504
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -100,7 +101,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Opacity: 1
-    - _OpacityThreshold: 0.15
+    - _OpacityThreshold: 0.06
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
