@@ -5,8 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class Scene3to4 : MonoBehaviour
 {
+    public bool Trigger;
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(3);
+
+        if (other.gameObject.tag == "Player")
+        {
+            Trigger = true;
+            //SceneManager.LoadScene(2);
+
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Trigger = false;
+            //SceneManager.LoadScene(2);
+
+        }
+    }
+
+    private void Update()
+    {
+        if (Trigger == true && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 }
