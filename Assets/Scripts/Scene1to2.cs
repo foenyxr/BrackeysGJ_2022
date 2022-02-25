@@ -3,38 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class Scene1to2 : MonoBehaviour
-
+namespace First_Main_Scene
 {
-    public bool Trigger;
-    private void OnTriggerEnter(Collider other)
+    public class Scene1to2 : MonoBehaviour
+
     {
-        
-        if (other.gameObject.tag == "Player")
+        public bool Trigger;
+        private void OnTriggerEnter(Collider other)
         {
-            Trigger = true;
-            //SceneManager.LoadScene(1);
 
+            if (other.gameObject.tag == "Player")
+            {
+                Trigger = true;
+                //SceneManager.LoadScene(1);
+
+            }
         }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
+        private void OnTriggerExit(Collider other)
         {
-            Trigger = false;
-            //SceneManager.LoadScene(1);
+            if (other.gameObject.tag == "Player")
+            {
+                Trigger = false;
+                //SceneManager.LoadScene(1);
 
+            }
         }
-    }
 
-    private void Update()
-    {
-        if(Trigger==true && Input.GetKeyDown(KeyCode.E))
+        private void Update()
         {
-            SceneManager.LoadScene(1);
+            if (Trigger == true && Input.GetKeyDown(KeyCode.E))
+            {
+                SceneManager.LoadScene(1);
+            }
         }
+
+
     }
-
-
 }
+
