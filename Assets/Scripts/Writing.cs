@@ -20,7 +20,7 @@ namespace First_Main_Scene
         private void OnTriggerEnter(Collider other)
         {
 
-            if (other.gameObject.tag == "Finish")
+            if (other.gameObject.tag == "Player")
             {
                 Debug.Log("enter");
                 text.SetActive(true);
@@ -29,7 +29,7 @@ namespace First_Main_Scene
         }
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.tag == "Finish")
+            if (other.gameObject.tag == "Player")
             {
                 Debug.Log("exit");
                 text.SetActive(false);
