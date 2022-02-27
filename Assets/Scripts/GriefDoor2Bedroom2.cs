@@ -35,7 +35,7 @@ namespace First_Main_Scene
         {
             if (Trigger == true && Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene(5);
             }
         }
 

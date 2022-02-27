@@ -32,7 +32,7 @@ namespace First_Main_Scene
         {
             if (Trigger == true && Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene(11);
+                SceneManager.LoadScene(7);
             }
         }
     }
