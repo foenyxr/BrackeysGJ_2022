@@ -500,15 +500,15 @@ RectTransform:
   m_GameObject: {fileID: 1885310355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.42792025, y: 0.42792025, z: 0.42792025}
   m_Children: []
   m_Father: {fileID: 1565760365}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177, y: -5324}
-  m_SizeDelta: {x: 5000, y: 8275.084}
+  m_AnchoredPosition: {x: 1, y: -3405.1694}
+  m_SizeDelta: {x: 5000, y: 13538.539}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1885310357
 Animator:
@@ -520,7 +520,7 @@ Animator:
   m_GameObject: {fileID: 1885310355}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d7955bf2512fc5d40b663260077e5180, type: 2}
+  m_Controller: {fileID: 9100000, guid: aba5ec5cc1a499d4396bd53e38337562, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -566,9 +566,21 @@ MonoBehaviour:
     professional help.\n\nNational Suicide Prevention Lifeline: \n800-273-8255\n\nA
     GAME BY THREE OF US\n\nCredits:\n\"Final Bedroom\" \n(https://skfb.ly/6RRTn)
     by jspurlin\n\"Doors corridor\" \n(https://skfb.ly/6SG6R) by Nevermoredmb\n\"Door\"
-    \n(https://skfb.ly/6WOrY) by Casco\n\"Flooded Grounds\"\nby Sandro T\n\"Destroyed
-    City\"\nby Profi Developers\n\"Please Dont Leave NBP Font\"\r\nby Total FontGeek
-    DTF, Ltd.\n\"gro Ov Ed Font\r\"\nby Billy Argel\n\n\nThank you for Playing!\n"
+    \n(https://skfb.ly/6WOrY) by Casco\n\"Simple Doors Pack\" \n(https://skfb.ly/6WNNN)
+    by Alberto Luviano \n\"medieval_door\" \n(https://skfb.ly/XXuu) by HASSAN\n\"Bunker
+    Door Large\"\n (https://skfb.ly/JLqQ) by neverfollow81\n\"Metal Door (Mobile)\"
+    \n(https://skfb.ly/6VEAt) by Juan Milanese\n\"Hieroglyphic Door\"\n(https://skfb.ly/6RZXC)
+    by Liam Moffitt \r\n\"cute cartoon emo door\"\n(https://skfb.ly/6RTPU) by anyaachan\n\r\"Quest
+    door\"\n(https://skfb.ly/6vRnx) by Choffa\n\r\"FNaF 1 (Employees Only) Door\"\n(https://skfb.ly/6TIYr)
+    by Glitch5970\n\"Radioactive Metal Door\"\n(https://skfb.ly/opWyN) by xAxIxRx
+    \n\r\"Door Of Fame\"\n(https://skfb.ly/opWVD) by Arthur Nicaise \n\r\"Old_Door_Blue\"\n(https://skfb.ly/6WNoO)
+    by goodronx\n\r\"Light Fixture - Ceiling Recessed\"\n(https://skfb.ly/6QYSF)
+    by MozillaHubs\n\r\"Rainbow\"\n(https://skfb.ly/6S7MF) by Alissa T\r\n\"Llama\"\n(https://skfb.ly/6SMRO)
+    by tomanski \r\n\"Ice Cream Corne\"\n(https://skfb.ly/6FVJJ) by adityajaiswal9968
+    \r\n\"Cartoon Trees\"\n(https://skfb.ly/6UX6O) by rhcreations \n\"Flooded Grounds\"\nby
+    Sandro T\n\"Destroyed City\"\nby Profi Developers\n\"Please Dont Leave NBP Font\"\r\nby
+    Total FontGeek DTF, Ltd.\n\"gro Ov Ed Font\r\"\nby Billy Argel\n\n\nThank you
+    for Playing!\n"
 --- !u!222 &1885310359
 CanvasRenderer:
   m_ObjectHideFlags: 0

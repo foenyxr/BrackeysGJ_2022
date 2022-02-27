@@ -9,6 +9,7 @@ namespace First_Main_Scene
     {
 
         public GameObject text;
+        public GameObject text1;
         private bool Trigger;
 
         private void Start()
@@ -16,6 +17,7 @@ namespace First_Main_Scene
         {
             Debug.Log("start");
             text.SetActive(false);
+            text1.SetActive(false);
         }
         private void OnTriggerEnter(Collider other)
         {
@@ -24,6 +26,7 @@ namespace First_Main_Scene
             {
                 Debug.Log("enter");
                 text.SetActive(true);
+                text1.SetActive(true);
 
             }
         }
@@ -33,6 +36,7 @@ namespace First_Main_Scene
             {
                 Debug.Log("exit");
                 text.SetActive(false);
+                text1.SetActive(false);
 
             }
         }
