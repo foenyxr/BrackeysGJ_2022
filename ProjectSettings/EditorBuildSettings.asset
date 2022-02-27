@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene5.unity
     guid: 1d5823767bdc0ff4b914cc7ce3bacd7e
   - enabled: 0
-    path: Assets/Scenes/Bedroom1.unity
+    path: 
     guid: 914a4e38a8a99d948ab330ecf64fa20d
   - enabled: 1
     path: Assets/Scenes/NEWscene.unity
@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bedroom3.unity
     guid: 030b2a6377185b244aac175ab889a1e0
+  - enabled: 1
+    path: Assets/Destroyed_city_FREE/Scenes/destroyed_city.unity
+    guid: dab52a771d551ca40930496e8e13757a
   m_configObjects: {}

@@ -427,7 +427,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &537424184
 PrefabInstance:
@@ -1138,7 +1138,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: -0.8, y: 8, z: 8.8, w: -9.6}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1374,7 +1374,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2103659254775489089, guid: 2a68d6e5552c41845a877a96090c8619, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2103659254775489089, guid: 2a68d6e5552c41845a877a96090c8619, type: 3}
       propertyPath: m_LocalPosition.x
